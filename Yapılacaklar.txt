@@ -1,0 +1,216 @@
+
+ PACK I
+========================
+(~) Kullanıcının yeniden oturmasının önüne geçilmeli
+  (+) Oturulduğunda oklar arkadaş ekleme simgelerine dönüşsün
+  (~) Kalkıldığında arkadaş ekleme simgeleri yeniden oka dönüşsün
+(-) TABLE STATE o anda PlayerWin'deyse ona uygun state bilgisi gönderilmeli
+(-) 2 el geçmeden geldiğinde kaldığı yerden devam edebilmesi
+(-) Boş masada sit yapıldığında paranın eksilmemesi, paranın başka bir oyuncu daha sit yaptığında eksilmesi
+(-) Points transition (incrementing rapidly on winning side, decrementing rapidly on pot)
+(-) Ses efektleri
+  (-) Zaman azalıyor uyarısı
+  (-) Sıra sende sesi
+  (-) Sıra bir oyuncuda sesi
+(-) Encryption
+(-) Oyuncu profili
+(-) Tüm düğmelerin vektör arkaplana geçirilmesi
+(-) Test client for handling a high number of users
+
+ PACK II
+========================
+(-) Tüm sunucu mesajlarının JSon'a çevrilmesi
+(-) Report a problem
+(-) Oyuncu profili (istatistikler)
+(-) Arkadaş daveti gönderme
+(-) Arkadaş davetlerini görüntüleme
+(-) Arkadaş davetlerini yanıtlama
+(-) Masaya arkadaş çağırma
+(-) Yeni oyun odası tasarımı (Ana oyunlar)
+(-) Oyun odası tasarımı (Puan kazanmak için oynanacak oyunlar)
+(-) Facebook ile giriş
+
+ END OF PACK II
+========================
+
+ Tamamlananlar
+------------------------
+(+) Two Pair sorunu (programdaki test kaydında var)
+(+) Oturma komutu oklara bağlansın
+(+) Masadan bağlantı kesildikten sonra 2 el bekleyip düşürmesi
+(+) PLAYERS WON kazanan oyuncularda WINNER görüntülemiyor
+(+) Stand up yaptıktan sonra yeniden oturma
+(+) Stand up yaptıktan sonra oyuncunun halen oynuyor görünmesi
+(+) Sıra oyuncudayken stand up yaptığında anında fold olması
+(+) Yeni biri katılması (test clientlardan biri)
+(+) Pending olan kullanıcının fold görünmesi
+(+) Geri geldiğinde eski bağlandığı slotu boşaltarak onun bilgilerini almalı
+(+) UI masada oturanlara sonradan katılma
+(+) Yeni biri katılınca:
+(+) Gerçek oyuncu en son oturduğunda (flop sonrası) hiçbir oyuncunun kartları görünmüyor ve oyuncu fold olmamış gözüküyor
+(+) Gerçek oyuncu en son oturduğunda (flop öncesi) kartları görünüyor ve fold olmamış gözüküyor
+(+) Avatar üstündeki call / raise yine ilk yerindeki gibi gidiyor (örn. sağ üste doğru, fakat direkt sola gitmeli)
+(+) Açılan kartlar şaşıyor (P1 ve P2 avatarları yer değiştiriyor fakat kartlar ilk yerlerinde açılıyor)
+(+) Odada bir oyuncu bağlıyken diğer başkalarının gelmesi, oyuncunun onları izleyebilmesi
+(+) Kartları hazırlama (oyunun ortasında girdiğinde o anda ortadaki kartların durumunun sunucudan bir mesajla belirtme)
+(+) Lütfen bir sonraki eli bekleyin uyarısı
+(+) Ellerdeki kapalı kartlar
+(+) Bizim bilgisayarda isim ve para neden yanlış görünüyor?
+(+) İkinci elde Mahmut Künefe gene çıktı (high_card.png)
+(+) P1 test client, P2 player (not sat), P3 test client:
+(+) Balance bilgileri neden görüntülenmedi?
+(+) Elin sonunda kartlar neden açılmadı?
+(+) Oyuncu oturmadığı halde onun XP göstergesi neden güncellendi?
+(+) AV1'in kartları neden açılmadı?
+(+) Süre göstergesi neden çalışmadı?
+(+) Autorebuy seçimi
+(+) Autorebuy seçilmezse masaya ne kadarla oturulacağının seçimi
+(+) Masaya otururken autorebuy seçiminin kaydedilmesi
+(+) Auto rebuy çalışması
+(+) Auto top off çalışması
+(+) SIT düğmesine basıldığında seçilmiş meblağ ile masaya oturma
+(+) Sit penceresi kapandıktan sonra neden tekrar basılamıyor?
+(+) Progress değiştiğinde oturulacak meblağın değişmesi
+(+) Masaya sonradan geldiğinde isim ve bakiye yazmaması
+(+) Autorebuy on off
+(+) Buy in at max on off
+(+) Progress'in autorebuy'a göre görünür / görünmez olması
+(+) Dealer düğmesi
+(+) Slider friction
+(+) Biri arttırdıktan sonra herkesin yanıt verme hakkının doğması (River'da en son konuşan raise yapınca ne oluyor)
+(+) P1 arttırdığında oyun ortasında elin açılması
+(+) P1 kazandığında AV2'de açılan MAHMUT KÜNEFE resmi
+(+) Oyunun başında AV2'de açılan MAHMUT KÜNEFE resmi
+(+) Daima P1'i kazanmış gösteriyor
+(+) Puanlar yanlış kullanıcıdan düşüyor (masa 5'in hiç puanı gitmiyor)
+(+) Oyuncu kazandığında masada görünen çipi artmıyor
+(+) İkinci bağlanan oyuncunun başlangıç çipi görünmüyor
+(+) Display table balance instead of full balance
+(+) Aynı elli oyuncuların parayı paylaşması ve side pots
+  (+) Velo wrong_win.png (parayı paylaşmalılar)
+  (+) musqt_have_shared.png
+(+) A,2,3,4,5 straight olmalı A için 2 pass (13 ve 1 olarak)
+  (+) a2345.png
+  (+) a2345?2.png
+(+) Straight'te 8 neden yanmadı? (strwo8.png)
+(+) Boş odaya girdiğinde neden sit çalışmadı?
+(+) XP arttırmada sorun, sanki progress geri gidiyor
+(+) Üç kişide tüm kağıtlar açıldıktan sonra yine P1 ve P2'ye geliyor
+(+) Üç kişilik oyunda otomatik fold yapmış adamın kazanması :(((
+(+) Üçüncü oyuncu fold yaptıktan sonra ona yine mi sıra geldi?
+(+) Üçüncü kişinin kaybolan kağıtları
+(+) Üçüncü kişi masaya bağlandığında Mahmut Künefe olarak gözüküyor
+(+) El oynanırken masaya oturan kişinin kararmış resmi yeni el başlayana kadar kararmış kalmalı (şu anda her bir çevrim sonrası tekrardan ağarıyor)
+(+) Oyuncunun süresi bitip fold yaptıktan sonra bir sonraki oyunda sıra kendisine gelir gelmez otomatik fold oluyor
+(+) Arttırmada oklarla gidildiğinde small*400 sınırı aşılabiliyor
+(+) Arttırma slider'ı sadece çhip'te değil solundaki sarı ve gerekirse sağındaki bir görünmez alan için de geçerli olmalı
+(+) Oyun sonunda oyuncudan topluca para eksiltmesi yapılmamalı
+(+) Raise yapıldığı anda raise kadar para oyuncudan eksiltilmeli
+(+) Arttırmadaki sağ-sol ok tuşları: Üstten sınır mevzusu
+(+) Arttırmadaki sağ-sol ok tuşları: Her basışta sabit 1/4 small arttırma/azaltma
+(+) El arttırmalarında bazan 1500K oluyor (aynı el içindeki ikinci arttırmaları dene)
+(+) 1002M sorunu
+(+) TotalRaiseMin'e arttırdığında rest olmalı
+(+) 2ndraiserest.png
+(+) Doğrudan allin'de kartlar açılmıyor
+(+) Üst sınırda her elde o el arttırdığını düşüyor, oysa her elde bir öncekilerle birlikte toplam arttırdığı kadar çipi üst sınırdan düşmeli
+(+) Arttırmada, arttırma sırasında 85K görünütken TAMAM düğmesine bastıktan sonra 85700 gibi küsüratlı bir şey olmamalı
+(+) El arttırmada ikinci kez arttırmaya geldiğinde hedef meblağı K'lı göstermiyor
+(+) El arttırmada sayı 2 haneli gösterilmeli
+(+) Levelleri 500'e kadar çıkar
+(+) İkinci arttırma yanlış yapılıyor
+(+) İki kere raise yapacaksa ikinci seferindeki arttırmaların nasıl yapılacağı sorulacak
+(+) Straight yanlış hesaplanıyor
+  (+) str2.png
+  (+) 3 kağıtlı straight (str3.png)
+  (+) 4 kağıtlı straight (str4.png)
+  (+) str5.png
+  (+) str6.png
+(+) Alkışlar
+  (+) Straight veya üstünde kuvvetli alkış
+  (+) Diğerlerinde normal alkış
+(+) Server açılışta tüm masaları sıfırlamalı, oyuncuların masalardaki kayıtlarını silmeli
+(+) Oturma sırası
+  (+) 3. kişinin masaya gelince SIT yaptığında elin bitmesini beklemesi
+  (+) bu arada sıraya alınması
+  (+) sonradan gelenlerin onun sırasına geçememesi
+(+) Test client - auto/random moves
+(+) Diğer oyuncular neden XP almıyor?
+(+) Allin'de tüm kartlar açılsın
+(x) İlk raise sonra allin yine yanlış meblağ arttırdı (data'da dump var)
+(+) Kartlar masaya gelmeden animasyon için break
+(+) Zaman göstergesini iyileştir: Daha kısa düşük zaman aralığında hareket etsin
+(+) Zaman göstergesini iyileştir: Daha güzel görünsün
+(+) Leveling up: Visual animation (self)
+(+) Level gauge: width hesaplaması yanlış
+(+) Gaining XP: Visual animation
+(+) Eksik çizimler: Kart arkası
+(+) RF
+  (+) RF-SF wonBy
+  (+) RF variant 2'de H8'in C8'den önce geldiği durumda da RF gerçekleşiyor mu?
+(+) Eksik çizimler - Karo J
+(+) Eksik çizimler - Karo Q
+(+) RF-SF-S arasındaki yazım farkları
+(+) Eksik çizimler - Karo K
+(+) QQgtJJ
+  (+) Muhtemelen hesaplama değişikliklerinden kaynaklanıyor. Puanlamayı değiştir, galibiyete bir miktar, malubiyete bir miktar puan ver, gerisini Oğuzlara bırak
+  (+) AIT veya HC puanı
+(+) Leveling up - Save to DB
+(+) Leveling up - Download on connection to table
+(+) Gaining XP - Save to DB
+(+) Gaining XP - Download on connection to table
+(+) Maça J eksik çizimi
+(+) 3. el (P2 son turda yanıt vermez hale geliyor)
+(+) Pot da K, M veya B'li yazsın
+(+) Neyle kazandığını gösterme
+  (+) Player mark + value of cards
+  (+) CalculatePlayerMark += Full house
+(+) Notify bandın arkaplan rengi (resmi?)
+(+) 2 tane 3 olduğunda en yüksek olanın seçilmesi
+(+) Kazanan kağıtları highlight
+  (+) OOK3
+  (+) PA2
+  (+) High card nasıl olmalı?
+  (+) Diğer oyuncuların elindeki kartlar da koyu olmalı
+(+) 3 tane çift olduğunda en yüksek 2 tanesinin seçilmesi
+(+) Triple pair to be removed (count highest two only)
+(+) Room background selection
+(+) PA1.vtsce ile CalculatePlayerMark'a break point koy ve izle
+(+) 2. el
+(+) Eller arasında bir transition
+(+) P1 direk fold, P2 için winer çıkmadı
+(+) Eli açık olan oyuncu allin sonrasında tekrardan kartlarını döndürüp açmamalı, sadece kapalı olanın kartları dönmeli
+(+) Turn 5'te sıra 1. oyuncudan sonra yine 1. oyuncuya geliyor
+(+) Negatif allin
+(+) Auto log
+(+) Kazanan yanlış seçiliyor (K K 7 7 kaybetti - K K 2 7 kazandı, ve w1.png)
+(+) Test script
+  (+) Arrange deck
+  (+) Arrange player hands
+  (+) Scenario loading from scripts
+  (+) Test script test :)
+  (+) Assert result test
+(+) Allin backend
+(+) Raise backend
+(+) 2 oyunculu masada P1 Fold dediğince hemen kartlar açılıyor
+  (+) Her call sonrasında new turn yapıyor
+(+) Winner gösterirken kağıtlar kaybolmamalı
+(+) Winner gösterme süresi daha uzun olmalı
+(+) Allin'i gören oyuncuda allin bakiyesi çıkmadı
+(+) Raise sonrasındaki elde call yaptık mı yine small kadar çıkartıyor
+(+) P1 rest yapıyor P2 görüyor ve gördüğü rakam small
+(+) Düz yükseltildiğinde (örn 350K) küsüratlı görünüyor (örn 353476)
+(+) Allin simgeleri 2 ve 4 numaralı masalarda yan yerine yukarıya doğru çıkmalı
+(+) 16K00
+(+) Allin sonrası Player 2 won but Player 2 has sitout??
+(+) Sitout sonrası oyuncu, sunucu tarafında PlayersSat ve PlayersConnected'dan oyuncu silinmeli
+(+) Root.PlayersInTheRoom'dan sitout yapan oyncu silinmeli
+(+) Sitout anim
+(+) Sitout'tan sonra tek kişi kalınca yeni el başlıyor
+(+) Masa ve oyuncu kartları masaya kartlar açılmadan belirlenmeli
+  (+) Bidding aşamasında allin çıktığında kartlar açılmalı
+(+) Auto disappear for raise dialog
+(+) İlk elde hiçbir şey yapmazsa P1 neden kazanıyor?
+(+) Raise dialogunda ilk allin'den büyük bir yere denk gelen bir kısma dokunduğumuzda neden grafik sıfırda kalıyor?
+(+) Raise dialog -> başlangıçta 10,000 yerine 10K olmalı
+(+) Allin animation

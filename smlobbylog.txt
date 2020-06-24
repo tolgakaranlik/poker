@@ -1,0 +1,1052 @@
+12:35:29 :: SKTB Smart Lobby v0.1.5
+12:35:29 :: Casino ID: 4
+12:35:29 :: Host: http://178.157.10.75:8090/velo/
+12:35:29 :: Port: 3431
+12:35:29 :: Oda bilgileri okunuyor...
+12:35:29 :: Sunucu portu açılıyor...
+12:35:29 :: Şu IP deneniyor: 169.254.229.195
+12:35:29 :: Şu IP için port açılamadı: 169.254.229.195
+12:35:29 :: Şu IP deneniyor: 169.254.168.70
+12:35:29 :: Şu IP için port açılamadı: 169.254.168.70
+12:35:29 :: Şu IP deneniyor: 169.254.81.255
+12:35:29 :: Şu IP için port açılamadı: 169.254.81.255
+12:35:29 :: Şu IP deneniyor: 169.254.206.23
+12:35:29 :: Şu IP için port açılamadı: 169.254.206.23
+12:35:29 :: Şu IP deneniyor: 192.168.42.121
+12:35:29 :: Başlanılan IP: 192.168.42.121
+12:35:29 :: Sunucu portu başarıyla açıldı
+12:35:29 :: Bağlanmak isteyen istemciler bekleniyor...
+12:35:35 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+12:36:16 :: SKTB Smart Lobby v0.1.5
+12:36:16 :: Casino ID: 4
+12:36:16 :: Host: http://178.157.10.75:8090/velo/
+12:36:16 :: Port: 3431
+12:36:16 :: Oda bilgileri okunuyor...
+12:36:16 :: Sunucu portu açılıyor...
+12:36:16 :: Şu IP deneniyor: 169.254.229.195
+12:36:16 :: Şu IP için port açılamadı: 169.254.229.195
+12:36:16 :: Şu IP deneniyor: 169.254.168.70
+12:36:16 :: Şu IP için port açılamadı: 169.254.168.70
+12:36:16 :: Şu IP deneniyor: 169.254.81.255
+12:36:16 :: Şu IP için port açılamadı: 169.254.81.255
+12:36:16 :: Şu IP deneniyor: 169.254.206.23
+12:36:16 :: Şu IP için port açılamadı: 169.254.206.23
+12:36:16 :: Şu IP deneniyor: 192.168.42.121
+12:36:16 :: Başlanılan IP: 192.168.42.121
+12:36:16 :: Sunucu portu başarıyla açıldı
+12:36:16 :: Bağlanmak isteyen istemciler bekleniyor...
+12:36:24 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+12:40:53 :: SKTB Smart Lobby v0.1.5
+12:40:53 :: Casino ID: 4
+12:40:53 :: Host: http://178.157.10.75:8090/velo/
+12:40:53 :: Port: 3431
+12:40:53 :: Oda bilgileri okunuyor...
+12:40:53 :: Sunucu portu açılıyor...
+12:40:53 :: Şu IP deneniyor: 169.254.229.195
+12:40:53 :: Şu IP için port açılamadı: 169.254.229.195
+12:40:53 :: Şu IP deneniyor: 169.254.168.70
+12:40:53 :: Şu IP için port açılamadı: 169.254.168.70
+12:40:53 :: Şu IP deneniyor: 169.254.81.255
+12:40:53 :: Şu IP için port açılamadı: 169.254.81.255
+12:40:53 :: Şu IP deneniyor: 169.254.206.23
+12:40:53 :: Şu IP için port açılamadı: 169.254.206.23
+12:40:53 :: Şu IP deneniyor: 192.168.42.121
+12:40:53 :: Başlanılan IP: 192.168.42.121
+12:40:53 :: Sunucu portu başarıyla açıldı
+12:40:53 :: Bağlanmak isteyen istemciler bekleniyor...
+12:41:09 :: Bir istemci bağlandı (192.168.42.121)
+12:41:09 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+0 :: 21 :: R:OK
+12:41:14 :: Bir istemci bağlandı (192.168.42.121)
+12:41:14 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+1 :: 21 :: R:OK
+12:41:27 :: Oyuncunun bağlantısı kapatılıyor: 0
+12:41:32 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Engelleyici bir işlem, bir WSACancelBlockingCall çağrısıyla kesildi.
+12:41:32 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+13:00:22 :: SKTB Smart Lobby v0.1.5
+13:00:22 :: Casino ID: 4
+13:00:22 :: Host: http://178.157.10.75:8090/velo/
+13:00:22 :: Port: 3431
+13:00:22 :: Oda bilgileri okunuyor...
+13:00:23 :: Sunucu portu açılıyor...
+13:00:23 :: Şu IP deneniyor: 169.254.229.195
+13:00:23 :: Şu IP için port açılamadı: 169.254.229.195
+13:00:23 :: Şu IP deneniyor: 169.254.168.70
+13:00:23 :: Şu IP için port açılamadı: 169.254.168.70
+13:00:23 :: Şu IP deneniyor: 169.254.81.255
+13:00:23 :: Şu IP için port açılamadı: 169.254.81.255
+13:00:23 :: Şu IP deneniyor: 169.254.206.23
+13:00:23 :: Şu IP için port açılamadı: 169.254.206.23
+13:00:23 :: Şu IP deneniyor: 192.168.42.121
+13:00:23 :: Başlanılan IP: 192.168.42.121
+13:00:23 :: Sunucu portu başarıyla açıldı
+13:00:23 :: Bağlanmak isteyen istemciler bekleniyor...
+13:00:33 :: Bir istemci bağlandı (192.168.42.121)
+13:00:33 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+13:00:51 :: Bir istemci bağlandı (192.168.42.121)
+13:00:51 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+13:00:57 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+13:01:08 :: Bir istemcide hata çıktı: Thread was being aborted.
+13:01:08 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+13:01:15 :: SKTB Smart Lobby v0.1.5
+13:01:15 :: Casino ID: 4
+13:01:15 :: Host: http://178.157.10.75:8090/velo/
+13:01:15 :: Port: 3431
+13:01:15 :: Oda bilgileri okunuyor...
+13:01:16 :: Sunucu portu açılıyor...
+13:01:16 :: Şu IP deneniyor: 169.254.229.195
+13:01:16 :: Şu IP için port açılamadı: 169.254.229.195
+13:01:16 :: Şu IP deneniyor: 169.254.168.70
+13:01:16 :: Şu IP için port açılamadı: 169.254.168.70
+13:01:16 :: Şu IP deneniyor: 169.254.81.255
+13:01:16 :: Şu IP için port açılamadı: 169.254.81.255
+13:01:16 :: Şu IP deneniyor: 169.254.206.23
+13:01:16 :: Şu IP için port açılamadı: 169.254.206.23
+13:01:16 :: Şu IP deneniyor: 192.168.42.121
+13:01:16 :: Başlanılan IP: 192.168.42.121
+13:01:16 :: Sunucu portu başarıyla açıldı
+13:01:16 :: Bağlanmak isteyen istemciler bekleniyor...
+13:01:18 :: Bir istemci bağlandı (192.168.42.121)
+13:01:18 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+13:01:28 :: Bir istemci bağlandı (192.168.42.121)
+13:01:28 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+13:01:41 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+13:04:15 :: Bir istemcide hata çıktı: Thread was being aborted.
+13:04:15 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+13:04:19 :: SKTB Smart Lobby v0.1.5
+13:04:19 :: Casino ID: 4
+13:04:19 :: Host: http://178.157.10.75:8090/velo/
+13:04:19 :: Port: 3431
+13:04:19 :: Oda bilgileri okunuyor...
+13:04:19 :: Sunucu portu açılıyor...
+13:04:19 :: Şu IP deneniyor: 169.254.229.195
+13:04:19 :: Şu IP için port açılamadı: 169.254.229.195
+13:04:19 :: Şu IP deneniyor: 169.254.168.70
+13:04:19 :: Şu IP için port açılamadı: 169.254.168.70
+13:04:19 :: Şu IP deneniyor: 169.254.81.255
+13:04:19 :: Şu IP için port açılamadı: 169.254.81.255
+13:04:19 :: Şu IP deneniyor: 169.254.206.23
+13:04:19 :: Şu IP için port açılamadı: 169.254.206.23
+13:04:19 :: Şu IP deneniyor: 192.168.42.121
+13:04:19 :: Başlanılan IP: 192.168.42.121
+13:04:19 :: Sunucu portu başarıyla açıldı
+13:04:19 :: Bağlanmak isteyen istemciler bekleniyor...
+13:04:21 :: Bir istemci bağlandı (192.168.42.121)
+13:04:21 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+13:04:31 :: Bir istemci bağlandı (192.168.42.121)
+13:04:31 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+13:04:44 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+13:04:46 :: Oyuncunun bağlantısı kapatılıyor: 0
+13:04:48 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+13:09:56 :: SKTB Smart Lobby v0.1.5
+13:09:56 :: Casino ID: 4
+13:09:56 :: Host: http://178.157.10.75:8090/velo/
+13:09:56 :: Port: 3431
+13:09:56 :: Oda bilgileri okunuyor...
+13:09:56 :: Sunucu portu açılıyor...
+13:09:56 :: Şu IP deneniyor: 169.254.229.195
+13:09:56 :: Şu IP için port açılamadı: 169.254.229.195
+13:09:56 :: Şu IP deneniyor: 169.254.168.70
+13:09:56 :: Şu IP için port açılamadı: 169.254.168.70
+13:09:56 :: Şu IP deneniyor: 169.254.81.255
+13:09:56 :: Şu IP için port açılamadı: 169.254.81.255
+13:09:56 :: Şu IP deneniyor: 169.254.206.23
+13:09:56 :: Şu IP için port açılamadı: 169.254.206.23
+13:09:56 :: Şu IP deneniyor: 192.168.42.121
+13:09:56 :: Başlanılan IP: 192.168.42.121
+13:09:56 :: Sunucu portu başarıyla açıldı
+13:09:56 :: Bağlanmak isteyen istemciler bekleniyor...
+13:09:57 :: Bir istemci bağlandı (192.168.42.121)
+13:09:57 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+13:10:08 :: Bir istemci bağlandı (192.168.42.121)
+13:10:08 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+13:10:21 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+13:10:23 :: Oyuncunun bağlantısı kapatılıyor: 0
+13:10:25 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+13:12:04 :: SKTB Smart Lobby v0.1.5
+13:12:04 :: Casino ID: 4
+13:12:04 :: Host: http://178.157.10.75:8090/velo/
+13:12:04 :: Port: 3431
+13:12:04 :: Oda bilgileri okunuyor...
+13:12:04 :: Sunucu portu açılıyor...
+13:12:04 :: Şu IP deneniyor: 169.254.229.195
+13:12:04 :: Şu IP için port açılamadı: 169.254.229.195
+13:12:04 :: Şu IP deneniyor: 169.254.168.70
+13:12:04 :: Şu IP için port açılamadı: 169.254.168.70
+13:12:04 :: Şu IP deneniyor: 169.254.81.255
+13:12:04 :: Şu IP için port açılamadı: 169.254.81.255
+13:12:04 :: Şu IP deneniyor: 169.254.206.23
+13:12:04 :: Şu IP için port açılamadı: 169.254.206.23
+13:12:04 :: Şu IP deneniyor: 192.168.42.121
+13:12:04 :: Başlanılan IP: 192.168.42.121
+13:12:04 :: Sunucu portu başarıyla açıldı
+13:12:04 :: Bağlanmak isteyen istemciler bekleniyor...
+13:12:05 :: Bir istemci bağlandı (192.168.42.121)
+13:12:05 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+13:12:15 :: Bir istemci bağlandı (192.168.42.121)
+13:12:15 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+13:13:04 :: Oyuncunun bağlantısı kapatılıyor: 1
+13:13:08 :: Oyuncunun bağlantısı kapatılıyor: 0
+13:13:10 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+13:23:19 :: SKTB Smart Lobby v0.1.5
+13:23:19 :: Casino ID: 4
+13:23:19 :: Host: http://178.157.10.75:8090/velo/
+13:23:19 :: Port: 3431
+13:23:19 :: Oda bilgileri okunuyor...
+13:23:19 :: Sunucu portu açılıyor...
+13:23:19 :: Şu IP deneniyor: 169.254.229.195
+13:23:19 :: Şu IP için port açılamadı: 169.254.229.195
+13:23:19 :: Şu IP deneniyor: 169.254.168.70
+13:23:19 :: Şu IP için port açılamadı: 169.254.168.70
+13:23:19 :: Şu IP deneniyor: 169.254.81.255
+13:23:19 :: Şu IP için port açılamadı: 169.254.81.255
+13:23:19 :: Şu IP deneniyor: 169.254.206.23
+13:23:19 :: Şu IP için port açılamadı: 169.254.206.23
+13:23:19 :: Şu IP deneniyor: 192.168.42.121
+13:23:19 :: Başlanılan IP: 192.168.42.121
+13:23:19 :: Sunucu portu başarıyla açıldı
+13:23:19 :: Bağlanmak isteyen istemciler bekleniyor...
+13:23:20 :: Bir istemci bağlandı (192.168.42.121)
+13:23:20 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+13:23:30 :: Bir istemci bağlandı (192.168.42.121)
+13:23:30 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+13:24:08 :: Oyuncunun bağlantısı kapatılıyor: 1
+13:24:11 :: Bir istemcide hata çıktı: Thread was being aborted.
+13:24:11 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+13:25:06 :: SKTB Smart Lobby v0.1.5
+13:25:06 :: Casino ID: 4
+13:25:06 :: Host: http://178.157.10.75:8090/velo/
+13:25:06 :: Port: 3431
+13:25:06 :: Oda bilgileri okunuyor...
+13:25:06 :: Sunucu portu açılıyor...
+13:25:06 :: Şu IP deneniyor: 169.254.229.195
+13:25:06 :: Şu IP için port açılamadı: 169.254.229.195
+13:25:06 :: Şu IP deneniyor: 169.254.168.70
+13:25:06 :: Şu IP için port açılamadı: 169.254.168.70
+13:25:06 :: Şu IP deneniyor: 169.254.81.255
+13:25:06 :: Şu IP için port açılamadı: 169.254.81.255
+13:25:06 :: Şu IP deneniyor: 169.254.206.23
+13:25:06 :: Şu IP için port açılamadı: 169.254.206.23
+13:25:06 :: Şu IP deneniyor: 192.168.42.121
+13:25:06 :: Başlanılan IP: 192.168.42.121
+13:25:06 :: Sunucu portu başarıyla açıldı
+13:25:06 :: Bağlanmak isteyen istemciler bekleniyor...
+13:25:08 :: Bir istemci bağlandı (192.168.42.121)
+13:25:08 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+13:25:18 :: Bir istemci bağlandı (192.168.42.121)
+13:25:18 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+13:26:10 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+13:26:12 :: Oyuncunun bağlantısı kapatılıyor: 0
+13:26:14 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+13:26:40 :: SKTB Smart Lobby v0.1.5
+13:26:40 :: Casino ID: 4
+13:26:40 :: Host: http://178.157.10.75:8090/velo/
+13:26:40 :: Port: 3431
+13:26:40 :: Oda bilgileri okunuyor...
+13:26:40 :: Sunucu portu açılıyor...
+13:26:40 :: Şu IP deneniyor: 169.254.229.195
+13:26:40 :: Şu IP için port açılamadı: 169.254.229.195
+13:26:40 :: Şu IP deneniyor: 169.254.168.70
+13:26:40 :: Şu IP için port açılamadı: 169.254.168.70
+13:26:40 :: Şu IP deneniyor: 169.254.81.255
+13:26:40 :: Şu IP için port açılamadı: 169.254.81.255
+13:26:40 :: Şu IP deneniyor: 169.254.206.23
+13:26:40 :: Şu IP için port açılamadı: 169.254.206.23
+13:26:40 :: Şu IP deneniyor: 192.168.42.121
+13:26:40 :: Başlanılan IP: 192.168.42.121
+13:26:40 :: Sunucu portu başarıyla açıldı
+13:26:40 :: Bağlanmak isteyen istemciler bekleniyor...
+13:26:41 :: Bir istemci bağlandı (192.168.42.121)
+13:26:41 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+13:26:51 :: Bir istemci bağlandı (192.168.42.121)
+13:26:51 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+13:27:45 :: Oyuncunun bağlantısı kapatılıyor: 1
+13:27:47 :: Oyuncunun bağlantısı kapatılıyor: 0
+13:27:49 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+13:28:22 :: SKTB Smart Lobby v0.1.5
+13:28:22 :: Casino ID: 4
+13:28:22 :: Host: http://178.157.10.75:8090/velo/
+13:28:22 :: Port: 3431
+13:28:22 :: Oda bilgileri okunuyor...
+13:28:22 :: Sunucu portu açılıyor...
+13:28:22 :: Şu IP deneniyor: 169.254.229.195
+13:28:22 :: Şu IP için port açılamadı: 169.254.229.195
+13:28:22 :: Şu IP deneniyor: 169.254.168.70
+13:28:22 :: Şu IP için port açılamadı: 169.254.168.70
+13:28:22 :: Şu IP deneniyor: 169.254.81.255
+13:28:22 :: Şu IP için port açılamadı: 169.254.81.255
+13:28:22 :: Şu IP deneniyor: 169.254.206.23
+13:28:22 :: Şu IP için port açılamadı: 169.254.206.23
+13:28:22 :: Şu IP deneniyor: 192.168.42.121
+13:28:22 :: Başlanılan IP: 192.168.42.121
+13:28:22 :: Sunucu portu başarıyla açıldı
+13:28:22 :: Bağlanmak isteyen istemciler bekleniyor...
+13:28:33 :: Bir istemci bağlandı (192.168.42.121)
+13:28:33 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+0 :: 21 :: R:OK
+13:28:39 :: Bir istemci bağlandı (192.168.42.121)
+13:28:39 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+1 :: 21 :: R:OK
+13:28:58 :: Oyuncunun bağlantısı kapatılıyor: 0
+13:28:59 :: Oyuncunun bağlantısı kapatılıyor: 1
+13:29:12 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+13:29:18 :: SKTB Smart Lobby v0.1.5
+13:29:18 :: Casino ID: 4
+13:29:18 :: Host: http://178.157.10.75:8090/velo/
+13:29:18 :: Port: 3431
+13:29:18 :: Oda bilgileri okunuyor...
+13:29:18 :: Sunucu portu açılıyor...
+13:29:18 :: Şu IP deneniyor: 169.254.229.195
+13:29:18 :: Şu IP için port açılamadı: 169.254.229.195
+13:29:18 :: Şu IP deneniyor: 169.254.168.70
+13:29:18 :: Şu IP için port açılamadı: 169.254.168.70
+13:29:18 :: Şu IP deneniyor: 169.254.81.255
+13:29:18 :: Şu IP için port açılamadı: 169.254.81.255
+13:29:18 :: Şu IP deneniyor: 169.254.206.23
+13:29:18 :: Şu IP için port açılamadı: 169.254.206.23
+13:29:18 :: Şu IP deneniyor: 192.168.42.121
+13:29:18 :: Başlanılan IP: 192.168.42.121
+13:29:18 :: Sunucu portu başarıyla açıldı
+13:29:18 :: Bağlanmak isteyen istemciler bekleniyor...
+13:29:20 :: Bir istemci bağlandı (192.168.42.121)
+13:29:21 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+13:29:30 :: Bir istemci bağlandı (192.168.42.121)
+13:29:30 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+13:29:59 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+13:30:00 :: Oyuncunun bağlantısı kapatılıyor: 0
+13:30:03 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+13:38:47 :: SKTB Smart Lobby v0.1.5
+13:38:47 :: Casino ID: 4
+13:38:47 :: Host: http://178.157.10.75:8090/velo/
+13:38:47 :: Port: 3431
+13:38:47 :: Oda bilgileri okunuyor...
+13:38:47 :: Sunucu portu açılıyor...
+13:38:48 :: Şu IP deneniyor: 169.254.229.195
+13:38:48 :: Şu IP için port açılamadı: 169.254.229.195
+13:38:48 :: Şu IP deneniyor: 169.254.168.70
+13:38:48 :: Şu IP için port açılamadı: 169.254.168.70
+13:38:48 :: Şu IP deneniyor: 169.254.81.255
+13:38:48 :: Şu IP için port açılamadı: 169.254.81.255
+13:38:48 :: Şu IP deneniyor: 169.254.206.23
+13:38:48 :: Şu IP için port açılamadı: 169.254.206.23
+13:38:48 :: Şu IP deneniyor: 192.168.42.121
+13:38:48 :: Başlanılan IP: 192.168.42.121
+13:38:48 :: Sunucu portu başarıyla açıldı
+13:38:48 :: Bağlanmak isteyen istemciler bekleniyor...
+13:38:50 :: Bir istemci bağlandı (192.168.42.121)
+13:38:50 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+13:38:59 :: Bir istemci bağlandı (192.168.42.121)
+13:38:59 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+13:39:17 :: Oyuncunun bağlantısı kapatılıyor: 1
+13:39:34 :: Bir istemcide hata çıktı: Thread was being aborted.
+13:39:34 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+13:42:51 :: SKTB Smart Lobby v0.1.5
+13:42:51 :: Casino ID: 4
+13:42:51 :: Host: http://178.157.10.75:8090/velo/
+13:42:51 :: Port: 3431
+13:42:51 :: Oda bilgileri okunuyor...
+13:42:52 :: Sunucu portu açılıyor...
+13:42:52 :: Şu IP deneniyor: 169.254.229.195
+13:42:52 :: Şu IP için port açılamadı: 169.254.229.195
+13:42:52 :: Şu IP deneniyor: 169.254.168.70
+13:42:52 :: Şu IP için port açılamadı: 169.254.168.70
+13:42:52 :: Şu IP deneniyor: 169.254.81.255
+13:42:52 :: Şu IP için port açılamadı: 169.254.81.255
+13:42:52 :: Şu IP deneniyor: 169.254.206.23
+13:42:52 :: Şu IP için port açılamadı: 169.254.206.23
+13:42:52 :: Şu IP deneniyor: 192.168.42.121
+13:42:52 :: Başlanılan IP: 192.168.42.121
+13:42:52 :: Sunucu portu başarıyla açıldı
+13:42:52 :: Bağlanmak isteyen istemciler bekleniyor...
+13:42:56 :: Bir istemci bağlandı (192.168.42.121)
+13:42:56 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+13:43:08 :: Bir istemci bağlandı (192.168.42.121)
+13:43:08 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+13:43:37 :: Oyuncunun bağlantısı kapatılıyor: 1
+13:43:38 :: Oyuncunun bağlantısı kapatılıyor: 0
+13:46:37 :: SKTB Smart Lobby v0.1.5
+13:46:37 :: Casino ID: 4
+13:46:37 :: Host: http://178.157.10.75:8090/velo/
+13:46:37 :: Port: 3431
+13:46:37 :: Oda bilgileri okunuyor...
+13:46:37 :: Sunucu portu açılıyor...
+13:46:37 :: Şu IP deneniyor: 169.254.229.195
+13:46:37 :: Şu IP için port açılamadı: 169.254.229.195
+13:46:37 :: Şu IP deneniyor: 169.254.168.70
+13:46:37 :: Şu IP için port açılamadı: 169.254.168.70
+13:46:37 :: Şu IP deneniyor: 169.254.81.255
+13:46:37 :: Şu IP için port açılamadı: 169.254.81.255
+13:46:37 :: Şu IP deneniyor: 169.254.206.23
+13:46:37 :: Şu IP için port açılamadı: 169.254.206.23
+13:46:37 :: Şu IP deneniyor: 192.168.42.121
+13:46:37 :: Başlanılan IP: 192.168.42.121
+13:46:37 :: Sunucu portu başarıyla açıldı
+13:46:37 :: Bağlanmak isteyen istemciler bekleniyor...
+13:46:45 :: Bir istemci bağlandı (192.168.42.121)
+13:46:45 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+13:46:55 :: Bir istemci bağlandı (192.168.42.121)
+13:46:55 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+13:48:36 :: Görünüşe göre bir istasyon (id: 1, user: Karanlıkoğlu Tolga, uid: 2) bağlantıyı kaybetti...
+13:51:03 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+13:51:05 :: Oyuncunun bağlantısı kapatılıyor: 0
+13:51:07 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+13:54:22 :: SKTB Smart Lobby v0.1.5
+13:54:22 :: Casino ID: 4
+13:54:22 :: Host: http://178.157.10.75:8090/velo/
+13:54:22 :: Port: 3431
+13:54:22 :: Oda bilgileri okunuyor...
+13:54:22 :: Sunucu portu açılıyor...
+13:54:22 :: Şu IP deneniyor: 169.254.229.195
+13:54:22 :: Şu IP için port açılamadı: 169.254.229.195
+13:54:22 :: Şu IP deneniyor: 169.254.168.70
+13:54:22 :: Şu IP için port açılamadı: 169.254.168.70
+13:54:22 :: Şu IP deneniyor: 169.254.81.255
+13:54:22 :: Şu IP için port açılamadı: 169.254.81.255
+13:54:22 :: Şu IP deneniyor: 169.254.206.23
+13:54:22 :: Şu IP için port açılamadı: 169.254.206.23
+13:54:22 :: Şu IP deneniyor: 192.168.42.121
+13:54:22 :: Başlanılan IP: 192.168.42.121
+13:54:22 :: Sunucu portu başarıyla açıldı
+13:54:22 :: Bağlanmak isteyen istemciler bekleniyor...
+13:54:25 :: Bir istemci bağlandı (192.168.42.121)
+13:54:25 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+13:54:38 :: Bir istemcide hata çıktı: Thread was being aborted.
+13:54:38 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+13:57:49 :: SKTB Smart Lobby v0.1.5
+13:57:49 :: Casino ID: 4
+13:57:49 :: Host: http://178.157.10.75:8090/velo/
+13:57:49 :: Port: 3431
+13:57:49 :: Oda bilgileri okunuyor...
+13:57:49 :: Sunucu portu açılıyor...
+13:57:49 :: Şu IP deneniyor: 169.254.229.195
+13:57:49 :: Şu IP için port açılamadı: 169.254.229.195
+13:57:49 :: Şu IP deneniyor: 169.254.168.70
+13:57:49 :: Şu IP için port açılamadı: 169.254.168.70
+13:57:49 :: Şu IP deneniyor: 169.254.81.255
+13:57:49 :: Şu IP için port açılamadı: 169.254.81.255
+13:57:49 :: Şu IP deneniyor: 169.254.206.23
+13:57:49 :: Şu IP için port açılamadı: 169.254.206.23
+13:57:49 :: Şu IP deneniyor: 192.168.42.121
+13:57:49 :: Başlanılan IP: 192.168.42.121
+13:57:49 :: Sunucu portu başarıyla açıldı
+13:57:49 :: Bağlanmak isteyen istemciler bekleniyor...
+13:57:50 :: Bir istemci bağlandı (192.168.42.121)
+13:57:50 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+13:58:01 :: Bir istemci bağlandı (192.168.42.121)
+13:58:01 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+13:58:20 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+13:58:21 :: Oyuncunun bağlantısı kapatılıyor: 0
+14:00:16 :: SKTB Smart Lobby v0.1.5
+14:00:16 :: Casino ID: 4
+14:00:16 :: Host: http://178.157.10.75:8090/velo/
+14:00:16 :: Port: 3431
+14:00:16 :: Oda bilgileri okunuyor...
+14:00:16 :: Sunucu portu açılıyor...
+14:00:16 :: Şu IP deneniyor: 169.254.229.195
+14:00:16 :: Şu IP için port açılamadı: 169.254.229.195
+14:00:16 :: Şu IP deneniyor: 169.254.168.70
+14:00:16 :: Şu IP için port açılamadı: 169.254.168.70
+14:00:16 :: Şu IP deneniyor: 169.254.81.255
+14:00:16 :: Şu IP için port açılamadı: 169.254.81.255
+14:00:16 :: Şu IP deneniyor: 169.254.206.23
+14:00:16 :: Şu IP için port açılamadı: 169.254.206.23
+14:00:16 :: Şu IP deneniyor: 192.168.42.121
+14:00:16 :: Şu IP için port açılamadı: 192.168.42.121
+14:00:16 :: Sunucu portu başarıyla açılamadı X(
+14:00:22 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+14:00:25 :: SKTB Smart Lobby v0.1.5
+14:00:25 :: Casino ID: 4
+14:00:25 :: Host: http://178.157.10.75:8090/velo/
+14:00:25 :: Port: 3431
+14:00:25 :: Oda bilgileri okunuyor...
+14:00:25 :: Sunucu portu açılıyor...
+14:00:25 :: Şu IP deneniyor: 169.254.229.195
+14:00:25 :: Şu IP için port açılamadı: 169.254.229.195
+14:00:25 :: Şu IP deneniyor: 169.254.168.70
+14:00:25 :: Şu IP için port açılamadı: 169.254.168.70
+14:00:25 :: Şu IP deneniyor: 169.254.81.255
+14:00:25 :: Şu IP için port açılamadı: 169.254.81.255
+14:00:25 :: Şu IP deneniyor: 169.254.206.23
+14:00:25 :: Şu IP için port açılamadı: 169.254.206.23
+14:00:25 :: Şu IP deneniyor: 192.168.42.121
+14:00:25 :: Başlanılan IP: 192.168.42.121
+14:00:25 :: Sunucu portu başarıyla açıldı
+14:00:25 :: Bağlanmak isteyen istemciler bekleniyor...
+14:00:27 :: Bir istemci bağlandı (192.168.42.121)
+14:00:27 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+14:00:45 :: Bir istemci bağlandı (192.168.42.121)
+14:00:45 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+14:01:16 :: Bir istemcide hata çıktı: Thread was being aborted.
+14:01:16 :: Bir istemcide hata çıktı: Thread was being aborted.
+14:01:16 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+14:02:16 :: SKTB Smart Lobby v0.1.5
+14:02:16 :: Casino ID: 4
+14:02:16 :: Host: http://178.157.10.75:8090/velo/
+14:02:16 :: Port: 3431
+14:02:16 :: Oda bilgileri okunuyor...
+14:02:16 :: Sunucu portu açılıyor...
+14:02:16 :: Şu IP deneniyor: 169.254.229.195
+14:02:16 :: Şu IP için port açılamadı: 169.254.229.195
+14:02:16 :: Şu IP deneniyor: 169.254.168.70
+14:02:16 :: Şu IP için port açılamadı: 169.254.168.70
+14:02:16 :: Şu IP deneniyor: 169.254.81.255
+14:02:16 :: Şu IP için port açılamadı: 169.254.81.255
+14:02:16 :: Şu IP deneniyor: 169.254.206.23
+14:02:16 :: Şu IP için port açılamadı: 169.254.206.23
+14:02:16 :: Şu IP deneniyor: 192.168.42.121
+14:02:16 :: Başlanılan IP: 192.168.42.121
+14:02:16 :: Sunucu portu başarıyla açıldı
+14:02:16 :: Bağlanmak isteyen istemciler bekleniyor...
+14:02:18 :: Bir istemci bağlandı (192.168.42.121)
+14:02:18 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+14:02:27 :: Bir istemci bağlandı (192.168.42.121)
+14:02:27 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+14:03:49 :: Oyuncunun bağlantısı kapatılıyor: 1
+14:03:51 :: Oyuncunun bağlantısı kapatılıyor: 0
+14:03:55 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+14:05:10 :: SKTB Smart Lobby v0.1.5
+14:05:10 :: Casino ID: 4
+14:05:10 :: Host: http://178.157.10.75:8090/velo/
+14:05:10 :: Port: 3431
+14:05:10 :: Oda bilgileri okunuyor...
+14:05:10 :: Sunucu portu açılıyor...
+14:05:10 :: Şu IP deneniyor: 169.254.229.195
+14:05:10 :: Şu IP için port açılamadı: 169.254.229.195
+14:05:10 :: Şu IP deneniyor: 169.254.168.70
+14:05:10 :: Şu IP için port açılamadı: 169.254.168.70
+14:05:10 :: Şu IP deneniyor: 169.254.81.255
+14:05:10 :: Şu IP için port açılamadı: 169.254.81.255
+14:05:10 :: Şu IP deneniyor: 169.254.206.23
+14:05:10 :: Şu IP için port açılamadı: 169.254.206.23
+14:05:10 :: Şu IP deneniyor: 192.168.42.121
+14:05:10 :: Başlanılan IP: 192.168.42.121
+14:05:10 :: Sunucu portu başarıyla açıldı
+14:05:10 :: Bağlanmak isteyen istemciler bekleniyor...
+14:05:10 :: Bir istemci bağlandı (192.168.42.121)
+14:05:10 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+0 :: 21 :: R:OK
+14:05:12 :: Bir istemci bağlandı (192.168.42.121)
+14:05:12 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+1 :: 21 :: R:OK
+14:05:34 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+14:05:37 :: Oyuncunun bağlantısı kapatılıyor: 1
+14:05:38 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+14:06:54 :: SKTB Smart Lobby v0.1.5
+14:06:54 :: Casino ID: 4
+14:06:54 :: Host: http://178.157.10.75:8090/velo/
+14:06:54 :: Port: 3431
+14:06:54 :: Oda bilgileri okunuyor...
+14:06:54 :: Sunucu portu açılıyor...
+14:06:54 :: Şu IP deneniyor: 169.254.229.195
+14:06:54 :: Şu IP için port açılamadı: 169.254.229.195
+14:06:54 :: Şu IP deneniyor: 169.254.168.70
+14:06:54 :: Şu IP için port açılamadı: 169.254.168.70
+14:06:54 :: Şu IP deneniyor: 169.254.81.255
+14:06:54 :: Şu IP için port açılamadı: 169.254.81.255
+14:06:54 :: Şu IP deneniyor: 169.254.206.23
+14:06:54 :: Şu IP için port açılamadı: 169.254.206.23
+14:06:54 :: Şu IP deneniyor: 192.168.42.121
+14:06:54 :: Başlanılan IP: 192.168.42.121
+14:06:54 :: Sunucu portu başarıyla açıldı
+14:06:54 :: Bağlanmak isteyen istemciler bekleniyor...
+14:07:03 :: Bir istemci bağlandı (192.168.42.121)
+14:07:03 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+14:07:03 :: Bir istemci bağlandı (192.168.42.121)
+14:07:03 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+14:07:27 :: Oyuncunun bağlantısı kapatılıyor: 1
+14:07:30 :: Oyuncunun bağlantısı kapatılıyor: 0
+14:08:36 :: SKTB Smart Lobby v0.1.5
+14:08:36 :: Casino ID: 4
+14:08:36 :: Host: http://178.157.10.75:8090/velo/
+14:08:36 :: Port: 3431
+14:08:36 :: Oda bilgileri okunuyor...
+14:08:36 :: Sunucu portu açılıyor...
+14:08:36 :: Şu IP deneniyor: 169.254.229.195
+14:08:36 :: Şu IP için port açılamadı: 169.254.229.195
+14:08:36 :: Şu IP deneniyor: 169.254.168.70
+14:08:36 :: Şu IP için port açılamadı: 169.254.168.70
+14:08:36 :: Şu IP deneniyor: 169.254.81.255
+14:08:36 :: Şu IP için port açılamadı: 169.254.81.255
+14:08:36 :: Şu IP deneniyor: 169.254.206.23
+14:08:36 :: Şu IP için port açılamadı: 169.254.206.23
+14:08:36 :: Şu IP deneniyor: 192.168.42.121
+14:08:36 :: Başlanılan IP: 192.168.42.121
+14:08:36 :: Sunucu portu başarıyla açıldı
+14:08:36 :: Bağlanmak isteyen istemciler bekleniyor...
+14:08:38 :: Bir istemci bağlandı (192.168.42.121)
+14:08:38 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+14:08:46 :: Bir istemci bağlandı (192.168.42.121)
+14:08:46 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+14:09:06 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+14:09:07 :: Oyuncunun bağlantısı kapatılıyor: 0
+14:09:11 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+14:10:08 :: SKTB Smart Lobby v0.1.5
+14:10:08 :: Casino ID: 4
+14:10:08 :: Host: http://178.157.10.75:8090/velo/
+14:10:08 :: Port: 3431
+14:10:08 :: Oda bilgileri okunuyor...
+14:10:08 :: Sunucu portu açılıyor...
+14:10:08 :: Şu IP deneniyor: 169.254.229.195
+14:10:08 :: Şu IP için port açılamadı: 169.254.229.195
+14:10:08 :: Şu IP deneniyor: 169.254.168.70
+14:10:08 :: Şu IP için port açılamadı: 169.254.168.70
+14:10:08 :: Şu IP deneniyor: 169.254.81.255
+14:10:08 :: Şu IP için port açılamadı: 169.254.81.255
+14:10:08 :: Şu IP deneniyor: 169.254.206.23
+14:10:08 :: Şu IP için port açılamadı: 169.254.206.23
+14:10:08 :: Şu IP deneniyor: 192.168.42.121
+14:10:08 :: Başlanılan IP: 192.168.42.121
+14:10:08 :: Sunucu portu başarıyla açıldı
+14:10:08 :: Bağlanmak isteyen istemciler bekleniyor...
+14:10:09 :: Bir istemci bağlandı (192.168.42.121)
+14:10:09 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+14:10:19 :: Bir istemci bağlandı (192.168.42.121)
+14:10:19 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+14:10:35 :: Oyuncunun bağlantısı kapatılıyor: 1
+14:10:36 :: Oyuncunun bağlantısı kapatılıyor: 0
+14:11:40 :: SKTB Smart Lobby v0.1.5
+14:11:40 :: Casino ID: 4
+14:11:40 :: Host: http://178.157.10.75:8090/velo/
+14:11:40 :: Port: 3431
+14:11:40 :: Oda bilgileri okunuyor...
+14:11:40 :: Sunucu portu açılıyor...
+14:11:40 :: Şu IP deneniyor: 169.254.229.195
+14:11:40 :: Şu IP için port açılamadı: 169.254.229.195
+14:11:40 :: Şu IP deneniyor: 169.254.168.70
+14:11:40 :: Şu IP için port açılamadı: 169.254.168.70
+14:11:40 :: Şu IP deneniyor: 169.254.81.255
+14:11:40 :: Şu IP için port açılamadı: 169.254.81.255
+14:11:40 :: Şu IP deneniyor: 169.254.206.23
+14:11:40 :: Şu IP için port açılamadı: 169.254.206.23
+14:11:40 :: Şu IP deneniyor: 192.168.42.121
+14:11:40 :: Şu IP için port açılamadı: 192.168.42.121
+14:11:40 :: Sunucu portu başarıyla açılamadı X(
+14:11:43 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+14:11:49 :: SKTB Smart Lobby v0.1.5
+14:11:49 :: Casino ID: 4
+14:11:49 :: Host: http://178.157.10.75:8090/velo/
+14:11:49 :: Port: 3431
+14:11:49 :: Oda bilgileri okunuyor...
+14:11:50 :: Sunucu portu açılıyor...
+14:11:50 :: Şu IP deneniyor: 169.254.229.195
+14:11:50 :: Şu IP için port açılamadı: 169.254.229.195
+14:11:50 :: Şu IP deneniyor: 169.254.168.70
+14:11:50 :: Şu IP için port açılamadı: 169.254.168.70
+14:11:50 :: Şu IP deneniyor: 169.254.81.255
+14:11:50 :: Şu IP için port açılamadı: 169.254.81.255
+14:11:50 :: Şu IP deneniyor: 169.254.206.23
+14:11:50 :: Şu IP için port açılamadı: 169.254.206.23
+14:11:50 :: Şu IP deneniyor: 192.168.42.121
+14:11:50 :: Başlanılan IP: 192.168.42.121
+14:11:50 :: Sunucu portu başarıyla açıldı
+14:11:50 :: Bağlanmak isteyen istemciler bekleniyor...
+14:11:51 :: Bir istemci bağlandı (192.168.42.121)
+14:11:51 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+14:12:02 :: Bir istemci bağlandı (192.168.42.121)
+14:12:02 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+14:13:43 :: Görünüşe göre bir istasyon (id: 1, user: Karanlıkoğlu Tolga, uid: 2) bağlantıyı kaybetti...
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+14:19:01 :: Bir istemcide hata çıktı: Index was outside the bounds of the array.
+14:19:10 :: Oyuncunun bağlantısı kapatılıyor: 1
+14:19:14 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+14:21:35 :: SKTB Smart Lobby v0.1.5
+14:21:35 :: Casino ID: 4
+14:21:35 :: Host: http://178.157.10.75:8090/velo/
+14:21:35 :: Port: 3431
+14:21:35 :: Oda bilgileri okunuyor...
+14:21:35 :: Sunucu portu açılıyor...
+14:21:35 :: Şu IP deneniyor: 169.254.229.195
+14:21:35 :: Şu IP için port açılamadı: 169.254.229.195
+14:21:35 :: Şu IP deneniyor: 169.254.168.70
+14:21:35 :: Şu IP için port açılamadı: 169.254.168.70
+14:21:35 :: Şu IP deneniyor: 169.254.81.255
+14:21:35 :: Şu IP için port açılamadı: 169.254.81.255
+14:21:35 :: Şu IP deneniyor: 169.254.206.23
+14:21:35 :: Şu IP için port açılamadı: 169.254.206.23
+14:21:35 :: Şu IP deneniyor: 192.168.42.121
+14:21:35 :: Başlanılan IP: 192.168.42.121
+14:21:35 :: Sunucu portu başarıyla açıldı
+14:21:35 :: Bağlanmak isteyen istemciler bekleniyor...
+14:21:37 :: Bir istemci bağlandı (192.168.42.121)
+14:21:37 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+14:21:46 :: Bir istemci bağlandı (192.168.42.121)
+14:21:46 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+14:22:09 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+14:22:11 :: Oyuncunun bağlantısı kapatılıyor: 0
+14:23:38 :: SKTB Smart Lobby v0.1.5
+14:23:39 :: Casino ID: 4
+14:23:39 :: Host: http://178.157.10.75:8090/velo/
+14:23:39 :: Port: 3431
+14:23:39 :: Oda bilgileri okunuyor...
+14:23:39 :: Sunucu portu açılıyor...
+14:23:39 :: Şu IP deneniyor: 169.254.229.195
+14:23:39 :: Şu IP için port açılamadı: 169.254.229.195
+14:23:39 :: Şu IP deneniyor: 169.254.168.70
+14:23:39 :: Şu IP için port açılamadı: 169.254.168.70
+14:23:39 :: Şu IP deneniyor: 169.254.81.255
+14:23:39 :: Şu IP için port açılamadı: 169.254.81.255
+14:23:39 :: Şu IP deneniyor: 169.254.206.23
+14:23:39 :: Şu IP için port açılamadı: 169.254.206.23
+14:23:39 :: Şu IP deneniyor: 192.168.42.121
+14:23:39 :: Şu IP için port açılamadı: 192.168.42.121
+14:23:39 :: Sunucu portu başarıyla açılamadı X(
+14:23:41 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+14:23:46 :: SKTB Smart Lobby v0.1.5
+14:23:46 :: Casino ID: 4
+14:23:46 :: Host: http://178.157.10.75:8090/velo/
+14:23:46 :: Port: 3431
+14:23:46 :: Oda bilgileri okunuyor...
+14:23:46 :: Sunucu portu açılıyor...
+14:23:46 :: Şu IP deneniyor: 169.254.229.195
+14:23:46 :: Şu IP için port açılamadı: 169.254.229.195
+14:23:46 :: Şu IP deneniyor: 169.254.168.70
+14:23:46 :: Şu IP için port açılamadı: 169.254.168.70
+14:23:46 :: Şu IP deneniyor: 169.254.81.255
+14:23:46 :: Şu IP için port açılamadı: 169.254.81.255
+14:23:46 :: Şu IP deneniyor: 169.254.206.23
+14:23:46 :: Şu IP için port açılamadı: 169.254.206.23
+14:23:46 :: Şu IP deneniyor: 192.168.42.121
+14:23:46 :: Başlanılan IP: 192.168.42.121
+14:23:46 :: Sunucu portu başarıyla açıldı
+14:23:46 :: Bağlanmak isteyen istemciler bekleniyor...
+14:23:48 :: Bir istemci bağlandı (192.168.42.121)
+14:23:48 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+14:23:57 :: Bir istemci bağlandı (192.168.42.121)
+14:23:57 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+14:24:18 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+14:24:20 :: Oyuncunun bağlantısı kapatılıyor: 0
+14:25:13 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+14:25:15 :: SKTB Smart Lobby v0.1.5
+14:25:15 :: Casino ID: 4
+14:25:15 :: Host: http://178.157.10.75:8090/velo/
+14:25:15 :: Port: 3431
+14:25:15 :: Oda bilgileri okunuyor...
+14:25:15 :: Sunucu portu açılıyor...
+14:25:15 :: Şu IP deneniyor: 169.254.229.195
+14:25:15 :: Şu IP için port açılamadı: 169.254.229.195
+14:25:15 :: Şu IP deneniyor: 169.254.168.70
+14:25:15 :: Şu IP için port açılamadı: 169.254.168.70
+14:25:15 :: Şu IP deneniyor: 169.254.81.255
+14:25:15 :: Şu IP için port açılamadı: 169.254.81.255
+14:25:15 :: Şu IP deneniyor: 169.254.206.23
+14:25:15 :: Şu IP için port açılamadı: 169.254.206.23
+14:25:15 :: Şu IP deneniyor: 192.168.42.121
+14:25:15 :: Başlanılan IP: 192.168.42.121
+14:25:15 :: Sunucu portu başarıyla açıldı
+14:25:15 :: Bağlanmak isteyen istemciler bekleniyor...
+14:25:17 :: Bir istemci bağlandı (192.168.42.121)
+14:25:17 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+14:25:26 :: Bir istemci bağlandı (192.168.42.121)
+14:25:26 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+14:25:47 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+14:25:48 :: Oyuncunun bağlantısı kapatılıyor: 0
+14:25:50 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+14:26:50 :: SKTB Smart Lobby v0.1.5
+14:26:50 :: Casino ID: 4
+14:26:50 :: Host: http://178.157.10.75:8090/velo/
+14:26:50 :: Port: 3431
+14:26:50 :: Oda bilgileri okunuyor...
+14:26:50 :: Sunucu portu açılıyor...
+14:26:50 :: Şu IP deneniyor: 169.254.229.195
+14:26:50 :: Şu IP için port açılamadı: 169.254.229.195
+14:26:50 :: Şu IP deneniyor: 169.254.168.70
+14:26:50 :: Şu IP için port açılamadı: 169.254.168.70
+14:26:50 :: Şu IP deneniyor: 169.254.81.255
+14:26:50 :: Şu IP için port açılamadı: 169.254.81.255
+14:26:50 :: Şu IP deneniyor: 169.254.206.23
+14:26:50 :: Şu IP için port açılamadı: 169.254.206.23
+14:26:50 :: Şu IP deneniyor: 192.168.42.121
+14:26:50 :: Başlanılan IP: 192.168.42.121
+14:26:50 :: Sunucu portu başarıyla açıldı
+14:26:50 :: Bağlanmak isteyen istemciler bekleniyor...
+14:27:12 :: Bir istemci bağlandı (192.168.42.121)
+14:27:12 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+14:27:22 :: Bir istemci bağlandı (192.168.42.121)
+14:27:22 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+14:27:35 :: HJRC INVALID (SIT)
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+14:27:50 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+14:27:52 :: Oyuncunun bağlantısı kapatılıyor: 0
+14:28:10 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+14:28:13 :: SKTB Smart Lobby v0.1.5
+14:28:13 :: Casino ID: 4
+14:28:13 :: Host: http://178.157.10.75:8090/velo/
+14:28:13 :: Port: 3431
+14:28:13 :: Oda bilgileri okunuyor...
+14:28:13 :: Sunucu portu açılıyor...
+14:28:13 :: Şu IP deneniyor: 169.254.229.195
+14:28:13 :: Şu IP için port açılamadı: 169.254.229.195
+14:28:13 :: Şu IP deneniyor: 169.254.168.70
+14:28:13 :: Şu IP için port açılamadı: 169.254.168.70
+14:28:13 :: Şu IP deneniyor: 169.254.81.255
+14:28:13 :: Şu IP için port açılamadı: 169.254.81.255
+14:28:13 :: Şu IP deneniyor: 169.254.206.23
+14:28:13 :: Şu IP için port açılamadı: 169.254.206.23
+14:28:13 :: Şu IP deneniyor: 192.168.42.121
+14:28:13 :: Başlanılan IP: 192.168.42.121
+14:28:13 :: Sunucu portu başarıyla açıldı
+14:28:13 :: Bağlanmak isteyen istemciler bekleniyor...
+14:28:15 :: Bir istemci bağlandı (192.168.42.121)
+14:28:15 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+14:28:24 :: Bir istemci bağlandı (192.168.42.121)
+14:28:24 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+14:28:37 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+14:28:38 :: Oyuncunun bağlantısı kapatılıyor: 0
+14:29:03 :: SKTB Smart Lobby v0.1.5
+14:29:03 :: Casino ID: 4
+14:29:03 :: Host: http://178.157.10.75:8090/velo/
+14:29:03 :: Port: 3431
+14:29:03 :: Oda bilgileri okunuyor...
+14:29:03 :: Sunucu portu açılıyor...
+14:29:03 :: Şu IP deneniyor: 169.254.229.195
+14:29:03 :: Şu IP için port açılamadı: 169.254.229.195
+14:29:03 :: Şu IP deneniyor: 169.254.168.70
+14:29:03 :: Şu IP için port açılamadı: 169.254.168.70
+14:29:03 :: Şu IP deneniyor: 169.254.81.255
+14:29:03 :: Şu IP için port açılamadı: 169.254.81.255
+14:29:03 :: Şu IP deneniyor: 169.254.206.23
+14:29:03 :: Şu IP için port açılamadı: 169.254.206.23
+14:29:03 :: Şu IP deneniyor: 192.168.42.121
+14:29:03 :: Şu IP için port açılamadı: 192.168.42.121
+14:29:03 :: Sunucu portu başarıyla açılamadı X(
+14:29:06 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+14:29:12 :: SKTB Smart Lobby v0.1.5
+14:29:12 :: Casino ID: 4
+14:29:12 :: Host: http://178.157.10.75:8090/velo/
+14:29:12 :: Port: 3431
+14:29:12 :: Oda bilgileri okunuyor...
+14:29:12 :: Sunucu portu açılıyor...
+14:29:12 :: Şu IP deneniyor: 169.254.229.195
+14:29:12 :: Şu IP için port açılamadı: 169.254.229.195
+14:29:12 :: Şu IP deneniyor: 169.254.168.70
+14:29:12 :: Şu IP için port açılamadı: 169.254.168.70
+14:29:12 :: Şu IP deneniyor: 169.254.81.255
+14:29:12 :: Şu IP için port açılamadı: 169.254.81.255
+14:29:12 :: Şu IP deneniyor: 169.254.206.23
+14:29:12 :: Şu IP için port açılamadı: 169.254.206.23
+14:29:12 :: Şu IP deneniyor: 192.168.42.121
+14:29:12 :: Başlanılan IP: 192.168.42.121
+14:29:12 :: Sunucu portu başarıyla açıldı
+14:29:12 :: Bağlanmak isteyen istemciler bekleniyor...
+14:29:14 :: Bir istemci bağlandı (192.168.42.121)
+14:29:14 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+14:29:24 :: Bir istemci bağlandı (192.168.42.121)
+14:29:24 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+14:29:36 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+14:29:37 :: Oyuncunun bağlantısı kapatılıyor: 0
+14:29:58 :: SKTB Smart Lobby v0.1.5
+14:29:59 :: Casino ID: 4
+14:29:59 :: Host: http://178.157.10.75:8090/velo/
+14:29:59 :: Port: 3431
+14:29:59 :: Oda bilgileri okunuyor...
+14:29:59 :: Sunucu portu açılıyor...
+14:29:59 :: Şu IP deneniyor: 169.254.229.195
+14:29:59 :: Şu IP için port açılamadı: 169.254.229.195
+14:29:59 :: Şu IP deneniyor: 169.254.168.70
+14:29:59 :: Şu IP için port açılamadı: 169.254.168.70
+14:29:59 :: Şu IP deneniyor: 169.254.81.255
+14:29:59 :: Şu IP için port açılamadı: 169.254.81.255
+14:29:59 :: Şu IP deneniyor: 169.254.206.23
+14:29:59 :: Şu IP için port açılamadı: 169.254.206.23
+14:29:59 :: Şu IP deneniyor: 192.168.42.121
+14:29:59 :: Şu IP için port açılamadı: 192.168.42.121
+14:29:59 :: Sunucu portu başarıyla açılamadı X(
+14:30:01 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+14:30:05 :: SKTB Smart Lobby v0.1.5
+14:30:05 :: Casino ID: 4
+14:30:05 :: Host: http://178.157.10.75:8090/velo/
+14:30:05 :: Port: 3431
+14:30:05 :: Oda bilgileri okunuyor...
+14:30:05 :: Sunucu portu açılıyor...
+14:30:05 :: Şu IP deneniyor: 169.254.229.195
+14:30:05 :: Şu IP için port açılamadı: 169.254.229.195
+14:30:05 :: Şu IP deneniyor: 169.254.168.70
+14:30:05 :: Şu IP için port açılamadı: 169.254.168.70
+14:30:05 :: Şu IP deneniyor: 169.254.81.255
+14:30:05 :: Şu IP için port açılamadı: 169.254.81.255
+14:30:05 :: Şu IP deneniyor: 169.254.206.23
+14:30:05 :: Şu IP için port açılamadı: 169.254.206.23
+14:30:05 :: Şu IP deneniyor: 192.168.42.121
+14:30:05 :: Başlanılan IP: 192.168.42.121
+14:30:05 :: Sunucu portu başarıyla açıldı
+14:30:05 :: Bağlanmak isteyen istemciler bekleniyor...
+14:30:09 :: Bir istemci bağlandı (192.168.42.121)
+14:30:09 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+14:30:18 :: Bir istemci bağlandı (192.168.42.121)
+14:30:18 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+14:30:35 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+14:30:39 :: Oyuncunun bağlantısı kapatılıyor: 0
+14:31:14 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+14:31:17 :: SKTB Smart Lobby v0.1.5
+14:31:17 :: Casino ID: 4
+14:31:17 :: Host: http://178.157.10.75:8090/velo/
+14:31:17 :: Port: 3431
+14:31:17 :: Oda bilgileri okunuyor...
+14:31:17 :: Sunucu portu açılıyor...
+14:31:17 :: Şu IP deneniyor: 169.254.229.195
+14:31:17 :: Şu IP için port açılamadı: 169.254.229.195
+14:31:17 :: Şu IP deneniyor: 169.254.168.70
+14:31:17 :: Şu IP için port açılamadı: 169.254.168.70
+14:31:17 :: Şu IP deneniyor: 169.254.81.255
+14:31:17 :: Şu IP için port açılamadı: 169.254.81.255
+14:31:17 :: Şu IP deneniyor: 169.254.206.23
+14:31:17 :: Şu IP için port açılamadı: 169.254.206.23
+14:31:17 :: Şu IP deneniyor: 192.168.42.121
+14:31:17 :: Başlanılan IP: 192.168.42.121
+14:31:17 :: Sunucu portu başarıyla açıldı
+14:31:17 :: Bağlanmak isteyen istemciler bekleniyor...
+14:31:19 :: Bir istemci bağlandı (192.168.42.121)
+14:31:19 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+14:31:28 :: Bir istemci bağlandı (192.168.42.121)
+14:31:28 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+14:31:57 :: Oyuncunun bağlantısı kapatılıyor: 1
+15:10:03 :: SKTB Smart Lobby v0.1.5
+15:10:03 :: Casino ID: 4
+15:10:03 :: Host: http://178.157.10.75:8090/velo/
+15:10:03 :: Port: 3431
+15:10:03 :: Oda bilgileri okunuyor...
+15:10:03 :: Sunucu portu açılıyor...
+15:10:04 :: Şu IP deneniyor: 169.254.229.195
+15:10:04 :: Şu IP için port açılamadı: 169.254.229.195
+15:10:04 :: Şu IP deneniyor: 192.168.42.2
+15:10:04 :: Başlanılan IP: 192.168.42.2
+15:10:04 :: Sunucu portu başarıyla açıldı
+15:10:04 :: Bağlanmak isteyen istemciler bekleniyor...
+15:10:11 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
+18:39:05 :: SKTB Smart Lobby v0.1.6
+18:39:05 :: Casino ID: 4
+18:39:05 :: Host: http://178.157.10.75:8090/velo/
+18:39:05 :: Port: 3431
+18:39:05 :: Oda bilgileri okunuyor...
+18:39:05 :: Sunucu portu açılıyor...
+18:39:05 :: Şu IP deneniyor: 169.254.229.195
+18:39:05 :: Şu IP için port açılamadı: 169.254.229.195
+18:39:05 :: Şu IP deneniyor: 192.168.42.121
+18:39:05 :: Başlanılan IP: 192.168.42.121
+18:39:05 :: Sunucu portu başarıyla açıldı
+18:39:05 :: Bağlanmak isteyen istemciler bekleniyor...
+18:39:07 :: Bir istemci bağlandı (192.168.42.121)
+18:39:07 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+18:39:27 :: Bir istemci bağlandı (192.168.42.121)
+18:39:27 :: Bir istemci kendini uygun şekilde tanıttı, iletişime başlanıyor
+1 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=2
+1 :: 21 :: R:OK
+0 :: 21 :: Q:srv_set_user_table.php?casino_id=4&room_id=21&user_id=1
+0 :: 21 :: R:OK
+18:39:48 :: Bir istemcide hata çıktı: Unable to read data from the transport connection: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+18:39:49 :: Oyuncunun bağlantısı kapatılıyor: 0
+18:39:49 :: Bir istemcide hata çıktı: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.TcpClient'.
+18:39:55 :: Sunucu portu başlatılamadı (Sebep: Thread was being aborted.)
