@@ -14,7 +14,7 @@ namespace T1GameRoomServer
         [STAThread]
         static void Main(string[] args)
         {
-            string Version = "0.1.30";
+            string Version = "0.1.31";
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

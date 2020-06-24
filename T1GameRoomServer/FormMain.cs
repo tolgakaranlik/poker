@@ -747,97 +747,116 @@ namespace T1GameRoomServer
                 }
                 else if (message == "STAND UP" && Connections[id].SittingAt != -1)
                 {
-                    using (WebClient wc = new WebClient())
-                    {
-                        wc.Headers.Add("User-Agent", "Gravity 0.1"); // PostmanRuntime/7.19.0
-                        string data = wc.DownloadString(Host + "srv_user_stand_up.php?user_id=" + Connections[id].UserID + "&token=" + Connections[id].SessionToken + "&room_id=" + Connections[id].TableId);
-
-                        if (data == "N/A")
-                        {
-                            WriteToClient(id, "ERROR");
-                            return;
-                        }
-
-                        int found = FindTableFromId(Connections[id].TableId);
-                        if (Connections[id].MyTurn)
-                        {
-                            PlayerFold(id);
-                        }
-
-                        // Remove from players sat
-                        int playerIndex = -1;
-                        for (int z = 0; z < TableList[found].PlayersSat.Length; z++)
-                        {
-                            if (TableList[found].PlayersSat[z] == id)
-                            {
-                                playerIndex = z;
-                                break;
-                            }
-                        }
-
-                        if (playerIndex != -1)
-                        {
-                            for (int h = playerIndex; h < TableInfo.MaxCapacity - 1; h++)
-                            {
-                                TableList[found].PlayersSat[h] = TableList[found].PlayersSat[h + 1];
-                            }
-                        }
-
-                        Connections[id].SittingAt = -1;
-
-                        TableList[found].NumSat--;
-                        TableList[found].PlayersSat[TableInfo.MaxCapacity - 1] = 0;
-
-                        // Remove from sit que
-                        playerIndex = -1;
-                        for (int z = 0; z < TableList[found].NumSitQue; z++)
-                        {
-                            if (TableList[found].PlayersSitQue[z] == id)
-                            {
-                                playerIndex = z;
-                                break;
-                            }
-                        }
-
-                        if (playerIndex != -1)
-                        {
-                            for (int h = playerIndex; h < TableInfo.MaxCapacity - 1; h++)
-                            {
-                                TableList[found].PlayersSitQue[h] = TableList[found].PlayersSitQue[h + 1];
-                            }
-                        }
-
-                        // PASS 1: Let the user know he is sitting
-                        WriteToClient(id, "STAND UP OK");
-
-                        // PASS 2: Notify every other player about the new user's presence
-                        int player;
-                        for (int i = 0; i < TableList[found].NumConnected; i++)
-                        {
-                            player = TableList[found].PlayersConnected[i];
-                            if (player == id)
-                            {
-                                continue;
-                            }
-                            else if (Connections[i] != null && Connections[i].Active && Connections[i].TableId == Connections[id].TableId)
-                            {
-                                WriteToClient(player, "PLAYER " + id + " HAS STAND UP " + data);
-                            }
-                        }
-
-                        // PASS 3: Let the only remaining player win
-                        if (TableList[found].NumSat == 1)
-                        {
-                            //PlayerWin(TableList[found].PlayersSat[0]);
-                            DecideWinner(found);
-                        }
-                    }
+                    PlayerStandUp(id);
 
                     return;
                 }
                 else
                 {
                     WriteLine("HRC INVALID (" + message + ")");
+                }
+            }
+        }
+
+        private void PlayerStandUp(int id)
+        {
+            using (WebClient wc = new WebClient())
+            {
+                wc.Headers.Add("User-Agent", "Gravity 0.1"); // PostmanRuntime/7.19.0
+                string data = wc.DownloadString(Host + "srv_user_stand_up.php?user_id=" + Connections[id].UserID + "&token=" + Connections[id].SessionToken + "&room_id=" + Connections[id].TableId);
+
+                if (data == "N/A")
+                {
+                    WriteToClient(id, "ERROR");
+                    return;
+                }
+
+                if (Connections[id].MyTurn)
+                {
+                    PlayerFold(id, false);
+                }
+
+                int found = FindTableFromId(Connections[id].TableId);
+
+                // Remove from players sat
+                int playerIndex = -1;
+                for (int z = 0; z < TableList[found].PlayersSat.Length; z++)
+                {
+                    if (TableList[found].PlayersSat[z] == id)
+                    {
+                        playerIndex = z;
+                        break;
+                    }
+                }
+
+                if (playerIndex != -1)
+                {
+                    for (int h = playerIndex; h < TableInfo.MaxCapacity - 1; h++)
+                    {
+                        TableList[found].PlayersSat[h] = TableList[found].PlayersSat[h + 1];
+                    }
+                }
+
+                Connections[id].SittingAt = -1;
+
+                TableList[found].NumSat--;
+                TableList[found].PlayersSat[TableInfo.MaxCapacity - 1] = 0;
+
+                // Remove from sit que
+                playerIndex = -1;
+                for (int z = 0; z < TableList[found].NumSitQue; z++)
+                {
+                    if (TableList[found].PlayersSitQue[z] == id)
+                    {
+                        playerIndex = z;
+                        break;
+                    }
+                }
+
+                if (playerIndex != -1)
+                {
+                    for (int h = playerIndex; h < TableInfo.MaxCapacity - 1; h++)
+                    {
+                        TableList[found].PlayersSitQue[h] = TableList[found].PlayersSitQue[h + 1];
+                    }
+                }
+
+                // PASS 1: Let the user know he is sitting
+                WriteToClient(id, "STAND UP OK");
+
+                // PASS 2: Notify every other player about the new user's presence
+                int player;
+                for (int i = 0; i < TableList[found].NumConnected; i++)
+                {
+                    player = TableList[found].PlayersConnected[i];
+                    if (player == id)
+                    {
+                        continue;
+                    }
+                    else if (Connections[i] != null && Connections[i].Active && Connections[i].TableId == Connections[id].TableId)
+                    {
+                        WriteToClient(player, "PLAYER " + id + " HAS STAND UP " + data);
+                    }
+                }
+
+                // PASS 3: Let the only remaining player win
+                if (TableList[found].NumSat == 1)
+                {
+                    DecideWinner(found, true);
+                } else
+                {
+                    switch (AllDone(found))
+                    {
+                        case TurnResult.Immediate:
+                            DecideWinner(found, true);
+                            break;
+                        case TurnResult.NextPlayer:
+                            SkipToNextPlayer(found);
+                            break;
+                        case TurnResult.NextTurn:
+                            StartNewTurn(found);
+                            break;
+                    }
                 }
             }
         }
@@ -854,11 +873,11 @@ namespace T1GameRoomServer
             DealHand(tableIndex);
 
             #if _HARDCODED_TEST
-            TableList[tableIndex].CardsOnTheTable[0] = new CardInfo(CardType.Spades, CardInfo.CardA);
+            TableList[tableIndex].CardsOnTheTable[0] = new CardInfo(CardType.Clubs, 4);
             TableList[tableIndex].CardsOnTheTable[1] = new CardInfo(CardType.Hearts, 5);
-            TableList[tableIndex].CardsOnTheTable[2] = new CardInfo(CardType.Diamonds, 9);
-            TableList[tableIndex].CardsOnTheTable[3] = new CardInfo(CardType.Spades, 2);
-            TableList[tableIndex].CardsOnTheTable[4] = new CardInfo(CardType.Spades, 5);
+            TableList[tableIndex].CardsOnTheTable[2] = new CardInfo(CardType.Hearts, 10);
+            TableList[tableIndex].CardsOnTheTable[3] = new CardInfo(CardType.Diamonds, 8);
+            TableList[tableIndex].CardsOnTheTable[4] = new CardInfo(CardType.Hearts, CardInfo.CardQ);
 #else
             TableList[tableIndex].CardsOnTheTable[0] = TakeNextCard(tableIndex);
             TableList[tableIndex].CardsOnTheTable[1] = TakeNextCard(tableIndex);
@@ -980,6 +999,11 @@ namespace T1GameRoomServer
 
         private void DecideWinner(int tableIndex)
         {
+            DecideWinner(tableIndex, false);
+        }
+
+        private void DecideWinner(int tableIndex, bool noDelay)
+        {
             int playerToWin;
             int player;
 
@@ -992,7 +1016,11 @@ namespace T1GameRoomServer
             int numAllin = 0;
             int numRaised = 0;
 
-            Thread.Sleep(3000);
+            if (!noDelay)
+            {
+                Thread.Sleep(3000);
+            }
+
             for (int i = 0; i < TableList[tableIndex].NumSat; i++)
             {
                 player = TableList[tableIndex].PlayersSat[i];
@@ -1022,7 +1050,12 @@ namespace T1GameRoomServer
                 }
             }
 
-            if (numFolded == TableList[tableIndex].NumSat - 1)
+            if (TableList[tableIndex].NumSat == 1)
+            {
+                playerToWin = TableList[tableIndex].PlayersSat[0];
+                PlayerWin(new WinningHand[] { new WinningHand(playerToWin, "AITT", "N") }, false, noDelay);
+            }
+            else if (numFolded == TableList[tableIndex].NumSat - 1)
             {
                 playerToWin = Connections[TableList[tableIndex].PlayersSat[nonFolded]].SittingAt;
                 PlayerWin(new WinningHand[] { new WinningHand(playerToWin, "AITT", "N") }, false);
@@ -1037,7 +1070,7 @@ namespace T1GameRoomServer
                     StartNewTurn(tableIndex);
                 }
             }
-            else if(numCalled + numFolded + numAllin + numRaised == TableList[tableIndex].NumSat)
+            else if (numCalled + numFolded + numAllin + numRaised == TableList[tableIndex].NumSat)
             {
                 // decide the winner among callers
                 if (TableList[tableIndex].NumHand == 1 && numAllin == 0)
@@ -1105,7 +1138,8 @@ namespace T1GameRoomServer
                         {
                             // 40 XP if folded, 50 XP if just lost
                             IncrementPlayerXP(tableIndex, TableList[tableIndex].PlayersSat[j], Connections[TableList[tableIndex].PlayersSat[j]].Folded ? 40 : 50);
-                        } else
+                        }
+                        else
                         {
                             // 200 XP for winning
                             IncrementPlayerXP(tableIndex, TableList[tableIndex].PlayersSat[j], 200 /*Connections[TableList[tableIndex].PlayersSat[j]].PlayerMark*/);
@@ -1125,7 +1159,9 @@ namespace T1GameRoomServer
                         StartNewTurn(tableIndex);
                     }
                 }
-            } else {
+            }
+            else
+            {
                 StartNewTurn(tableIndex);
             }
             
@@ -1538,7 +1574,7 @@ namespace T1GameRoomServer
                 {
                     if(cardList[i].Number != highestCardNumber && baseValue == 0)
                     {
-                        baseValue = cardList[i].Number + highestCardNumber * 4;
+                        baseValue = cardList[i].Number;
                     }
                 }
 
@@ -1588,11 +1624,6 @@ namespace T1GameRoomServer
                 {
                     if (calculatedBaseValueItems < 2 && cardList[i].Number != highestCardNumber)
                     {
-                        if(baseValue == 0)
-                        {
-                            baseValue = highestCardNumber * 3;
-                        }
-
                         calculatedBaseValueItems++;
                         baseValue += cardList[i].Number;
                     }
@@ -1601,7 +1632,7 @@ namespace T1GameRoomServer
                 if (secondOrder != -1)
                 {
                     wonBy = "FH";
-                    baseValue = highestCardNumber * 3 + secondOrder * 2;
+                    baseValue += 0;
 
                     for (int i = 0; i < origList.Length; i++)
                     {
@@ -1699,7 +1730,6 @@ namespace T1GameRoomServer
 
                 if (pairNumber3 != -1)
                 {
-                    // there are 3 pairs in the pile of 7 cards
                     wonBy = "PA2";
 
                     if (pairNumber3 > pairNumber2 && pairNumber3 > pairNumber)
@@ -1737,7 +1767,7 @@ namespace T1GameRoomServer
                             {
                                 if (origList[i].Number != pairNumber3 && origList[i].Number != pairNumber2 && baseValue == 0)
                                 {
-                                    baseValue = pairNumber3 * 2 + pairNumber2 * 2 + origList[i].Number;
+                                    baseValue = origList[i].Number;
                                 }
                             }
                         }
@@ -1760,7 +1790,7 @@ namespace T1GameRoomServer
                             {
                                 if (origList[i].Number != pairNumber3 && origList[i].Number != pairNumber && baseValue == 0)
                                 {
-                                    baseValue = pairNumber3 * 2 + pairNumber * 2 + origList[i].Number;
+                                    baseValue = origList[i].Number;
                                 }
                             }
                         }
@@ -1803,7 +1833,7 @@ namespace T1GameRoomServer
                             {
                                 if (origList[i].Number != pairNumber3 && origList[i].Number != pairNumber2 && baseValue == 0)
                                 {
-                                    baseValue = pairNumber3 * 2 + pairNumber2 * 2 + origList[i].Number;
+                                    baseValue = origList[i].Number;
                                 }
                             }
                         }
@@ -1826,7 +1856,7 @@ namespace T1GameRoomServer
                             {
                                 if (origList[i].Number != pairNumber && origList[i].Number != pairNumber2 && baseValue == 0)
                                 {
-                                    baseValue = pairNumber2 * 2 + pairNumber * 2 + origList[i].Number;
+                                    baseValue = origList[i].Number;
                                 }
                             }
                         }
@@ -1869,7 +1899,7 @@ namespace T1GameRoomServer
                             {
                                 if (origList[i].Number != pairNumber2 && origList[i].Number != pairNumber && baseValue == 0)
                                 {
-                                    baseValue = pairNumber * 2 + pairNumber2 * 2 + origList[i].Number;
+                                    baseValue = origList[i].Number;
                                 }
                             }
                         }
@@ -1892,7 +1922,7 @@ namespace T1GameRoomServer
                             {
                                 if(origList[i].Number != pairNumber3 && origList[i].Number != pairNumber && baseValue == 0)
                                 {
-                                    baseValue = pairNumber3 * 2 + pairNumber * 2 + origList[i].Number;
+                                    baseValue = origList[i].Number;
                                 }
                             }
                         }
@@ -1921,7 +1951,7 @@ namespace T1GameRoomServer
                     {
                         if (cardList[i].Number != pairNumber2 && cardList[i].Number != pairNumber && baseValue == 0)
                         {
-                            baseValue = pairNumber2 * 2 + pairNumber * 2 + cardList[i].Number;
+                            baseValue = cardList[i].Number;
                         }
                     }
 
@@ -2006,6 +2036,11 @@ namespace T1GameRoomServer
         }
 
         private void PlayerWin(WinningHand[] ids, bool showCards)
+        {
+            PlayerWin(ids, showCards, false);
+        }
+
+        private void PlayerWin(WinningHand[] ids, bool showCards, bool noDelay)
         {
             if(ids == null || ids.Length == 0)
             {
@@ -2094,7 +2129,10 @@ namespace T1GameRoomServer
                 }
             }
 
-            Thread.Sleep(2000);
+            if (!noDelay)
+            {
+                Thread.Sleep(2000);
+            }
 
             // declare winners
             //bool youWon = false;
@@ -2475,11 +2513,11 @@ namespace T1GameRoomServer
         private void DealHand(int tableIndex)
         {
             #if _HARDCODED_TEST
-            Connections[TableList[tableIndex].PlayersSat[0]].CardDeck[0] = new CardInfo(CardType.Hearts, 8);
-            Connections[TableList[tableIndex].PlayersSat[0]].CardDeck[1] = new CardInfo(CardType.Diamonds, 2);
+            Connections[TableList[tableIndex].PlayersSat[0]].CardDeck[0] = new CardInfo(CardType.Clubs, 5);
+            Connections[TableList[tableIndex].PlayersSat[0]].CardDeck[1] = new CardInfo(CardType.Hearts, 6);
 
-            Connections[TableList[tableIndex].PlayersSat[1]].CardDeck[0] = new CardInfo(CardType.Spades, 9);
-            Connections[TableList[tableIndex].PlayersSat[1]].CardDeck[1] = new CardInfo(CardType.Clubs, 8);
+            Connections[TableList[tableIndex].PlayersSat[1]].CardDeck[0] = new CardInfo(CardType.Spades, 10);
+            Connections[TableList[tableIndex].PlayersSat[1]].CardDeck[1] = new CardInfo(CardType.Diamonds, 3);
 
             if (TableList[tableIndex].NumSat > 2)
             {
@@ -2661,37 +2699,42 @@ namespace T1GameRoomServer
 
                         if (Connections[index].MyTurn)
                         {
-                            switch (++Connections[index].HandsMissed)
+                            int handsMissed = ++Connections[index].HandsMissed;
+                            switch (handsMissed)
                             {
                                 case 1:
                                     PlayerCall(index);
                                     break;
                                 case 2:
-                                    PlayerFold(index);
-                                    PlayerLeave(index);
+                                    PlayerStandUp(index);
                                     break;
                             }
+
+                            Connections[index].HandsMissed = handsMissed;
                         }
 
-                        if (AllDone(currentTable) == TurnResult.NextPlayer)
+                        TurnResult allDone = AllDone(currentTable);
+                        switch (allDone)
                         {
-                            Application.DoEvents();
-                            Thread.Sleep(1000);
+                            case TurnResult.NextPlayer:
+                                Application.DoEvents();
+                                Thread.Sleep(1000);
 
-                            if (!Connections[index].TurnTimerOn)
-                            {
-                                return;
-                            }
+                                if (!Connections[index].TurnTimerOn)
+                                {
+                                    return;
+                                }
 
-                            Connections[index].TurnTimerOn = false;
-                            SkipToNextPlayer(currentTable);
-                        }
-                        else
-                        {
-                            DecideWinner(currentTable);
+                                Connections[index].TurnTimerOn = false;
+                                SkipToNextPlayer(currentTable);
+                                break;
+                            default:
+                                WriteLine("Unexpected result on turn timer: " + allDone.ToString());
+                                break;
                         }
                     });
 
+                    Connections[player].TurnTimerStartedAt = DateTime.Now;
                     Connections[player].TurnTimer.Start(player);
                 }
                 else
@@ -2711,6 +2754,7 @@ namespace T1GameRoomServer
                 return;
             }
 
+            Connections[index].HandsMissed = 0;
             Connections[index].Raised = false;
             Connections[index].Allin = true;
 
@@ -2764,6 +2808,8 @@ namespace T1GameRoomServer
             int found = FindTableFromId(Connections[index].TableId);
             if (found != -1)
             {
+                Connections[index].HandsMissed = 0;
+
                 if (amount > TableList[found].SmallBlind * 400)
                 {
                     amount = TableList[found].SmallBlind * 400;
@@ -2887,6 +2933,7 @@ namespace T1GameRoomServer
             }
 
             Connections[index].Called = true;
+            Connections[index].HandsMissed = 0;
 
             int found = FindTableFromId(Connections[index].TableId);
             if (found != -1)
@@ -2978,6 +3025,11 @@ namespace T1GameRoomServer
 
         private void PlayerFold(int index)
         {
+            PlayerFold(index, true);
+        }
+
+        private void PlayerFold(int index, bool evaluateWinner)
+        {
             string tableId = Connections[index].TableId;
             if(tableId == null)
             {
@@ -2989,6 +3041,7 @@ namespace T1GameRoomServer
             if (found != -1)
             {
                 int player;
+                Connections[index].HandsMissed = 0;
                 for (int i = 0; i < TableList[found].NumSat; i++)
                 {
                     player = TableList[found].PlayersSat[i];
@@ -3025,6 +3078,11 @@ namespace T1GameRoomServer
                             numCalled++;
                         }
                     }
+                }
+
+                if(!evaluateWinner)
+                {
+                    return;
                 }
 
                 if (numFolded == TableList[found].NumSat - 1)
@@ -3134,7 +3192,7 @@ namespace T1GameRoomServer
 
                         if(Connections[i] != null && Connections[i].UserID == Connections[id].UserID && Connections[i].Active)
                         {
-                            CloseConnection(id);
+                            CloseConnection(i);
                         }
                     }
                 }
@@ -3578,6 +3636,7 @@ namespace T1GameRoomServer
                     }
                 }
 
+                // List other players
                 if (TableList[found].NumConnected > 0)
                 {
                     message += "\n" + "OTHER PLAYERS IN THE TABLE ARE: ";
@@ -3591,6 +3650,17 @@ namespace T1GameRoomServer
                         }
 
                         message += "|" + Connections[player].FullName + "," + Connections[player].Avatar + "," + Connections[player].AvatarFile + "," + Connections[player].BalanceOnTable + "," + Connections[player].Level + "," + Connections[player].XP + "," + Connections[player].XPToLevel + "," + Connections[player].SittingAt + "," + Connections[player].Index;
+                    }
+                }
+
+                // Tell whose turn is it and how much time remained
+                for (int i = 0; i < TableList[found].NumSat; i++)
+                {
+                    int player = TableList[found].PlayersSat[i];
+                    if (Connections[player].MyTurn)
+                    {
+                        message += "\nITS TURN OF " + Connections[player].SittingAt + " REMAINING " + (21 - Math.Floor((DateTime.Now - Connections[player].TurnTimerStartedAt).TotalSeconds));
+                        break;
                     }
                 }
 
@@ -3656,6 +3726,13 @@ namespace T1GameRoomServer
                 return;
             }
 
+            // Notify others about player's leave
+            for (int i = 0; i < TableList[tableIndex].NumConnected; i++)
+            {
+                WriteToClient(TableList[tableIndex].PlayersConnected[i], "USER LEFT " + Connections[id].SittingAt);
+            }
+
+            // Perform the operation
             for (int i = 0; i < TableList[tableIndex].NumSat; i++)
             {
                 if (TableList[tableIndex].PlayersSat[i] == id)
@@ -3685,12 +3762,6 @@ namespace T1GameRoomServer
             TableList[tableIndex].NumSat--;
             TableList[tableIndex].NumConnected--;
 
-            // Notify others about player's leave
-            for (int i = 0; i < TableList[tableIndex].NumConnected; i++)
-            {
-                WriteToClient(TableList[tableIndex].PlayersConnected[i], "USER LEFT " + Connections[id].SittingAt);
-            }
-
             Connections[id].SittingAt = -1;
             Connections[id].State = ConnectionInfo.ConnectionState.SelfIdentify;
             Connections[id].Active = false;
@@ -3698,7 +3769,7 @@ namespace T1GameRoomServer
             // if someone is alone in the table, let him win
             if (TableList[tableIndex].NumSat == 1)
             {
-                PlayerWin(new WinningHand[] { new WinningHand(TableList[tableIndex].PlayersSat[0], "AITT", "N") }, false);
+                PlayerWin(new WinningHand[] { new WinningHand(TableList[tableIndex].PlayersSat[0], "AITT", "N") }, false, true);
                 IncrementPlayerXP(tableIndex, TableList[tableIndex].PlayersSat[0], 200);
             }
         }

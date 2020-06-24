@@ -1,42 +1,39 @@
 
  PACK I
 ========================
-(~) Kullanıcının yeniden oturmasının önüne geçilmeli
-  (+) Oturulduğunda oklar arkadaş ekleme simgelerine dönüşsün
-  (~) Kalkıldığında arkadaş ekleme simgeleri yeniden oka dönüşsün
 (-) TABLE STATE o anda PlayerWin'deyse ona uygun state bilgisi gönderilmeli
-(-) 2 el geçmeden geldiğinde kaldığı yerden devam edebilmesi
+(-) Sunucuya bağlantıyı kesip tekrar bağlandığında oluşan Identify'da kalma sorunu
+(~) 2 el geçmeden geldiğinde kaldığı yerden devam edebilmesi
+  (~) Bu mesajın oyuncunun kendisi için uygulanması
 (-) Boş masada sit yapıldığında paranın eksilmemesi, paranın başka bir oyuncu daha sit yaptığında eksilmesi
 (-) Points transition (incrementing rapidly on winning side, decrementing rapidly on pot)
-(-) Ses efektleri
-  (-) Zaman azalıyor uyarısı
-  (-) Sıra sende sesi
-  (-) Sıra bir oyuncuda sesi
-(-) Encryption
-(-) Oyuncu profili
-(-) Tüm düğmelerin vektör arkaplana geçirilmesi
 (-) Test client for handling a high number of users
+(-) Tüm sunucu mesajlarının JSon'a çevrilmesi
+(-) Encryption
+
+ END OF PACK I
+========================
+
 
  PACK II
 ========================
-(-) Tüm sunucu mesajlarının JSon'a çevrilmesi
-(-) Report a problem
-(-) Oyuncu profili (istatistikler)
-(-) Arkadaş daveti gönderme
-(-) Arkadaş davetlerini görüntüleme
-(-) Arkadaş davetlerini yanıtlama
-(-) Masaya arkadaş çağırma
+(-) Oyuncu profili
+(-) Leveling up: Visual animation (other players)
 (-) Yeni oyun odası tasarımı (Ana oyunlar)
 (-) Oyun odası tasarımı (Puan kazanmak için oynanacak oyunlar)
-(-) Facebook ile giriş
 
  END OF PACK II
 ========================
 
  Tamamlananlar
 ------------------------
-(+) Two Pair sorunu (programdaki test kaydında var)
-(+) Oturma komutu oklara bağlansın
+(+) Oyuncuların süresinin ne kadar kaldığının mesajı (bağlanan başka oyuncuların)
+(+) Sesler
+(+) Süre azaldı
+(+) Sıra oyuncuya geldi
+(+) Sıra başkasına geldi
+(+) Kullanıcının yeniden oturmasının önüne geçilmeli (oturma komutu oklara bağlansa tamamdır)
+(+) Pair Wrong
 (+) Masadan bağlantı kesildikten sonra 2 el bekleyip düşürmesi
 (+) PLAYERS WON kazanan oyuncularda WINNER görüntülemiyor
 (+) Stand up yaptıktan sonra yeniden oturma

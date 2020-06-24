@@ -21,6 +21,7 @@ namespace T1GameRoomServer
         public Thread KeepAliveThread;
         public Thread TurnTimer;
         public int HandsMissed = 0;
+        public DateTime TurnTimerStartedAt = DateTime.MinValue;
         public bool TurnTimerOn = false;
         public bool Active = false;
         public int KeepAliveNotResponded = 0;
