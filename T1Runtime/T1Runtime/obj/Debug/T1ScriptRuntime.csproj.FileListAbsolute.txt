@@ -1,6 +1,0 @@
-D:\temp\zynga\T1Ecosystem\T1Runtime\T1Runtime\bin\Debug\T1Runtime.dll
-D:\temp\zynga\T1Ecosystem\T1Runtime\T1Runtime\bin\Debug\T1Runtime.pdb
-D:\temp\zynga\T1Ecosystem\T1Runtime\T1Runtime\obj\Debug\T1ScriptRuntime.csprojAssemblyReference.cache
-D:\temp\zynga\T1Ecosystem\T1Runtime\T1Runtime\obj\Debug\T1Runtime.dll
-D:\temp\zynga\T1Ecosystem\T1Runtime\T1Runtime\obj\Debug\T1Runtime.pdb
-D:\temp\zynga\T1Ecosystem\T1Runtime\T1Runtime\obj\Debug\T1ScriptRuntime.csproj.CoreCompileInputs.cache
